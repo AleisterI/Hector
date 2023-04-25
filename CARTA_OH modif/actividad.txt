@@ -1,0 +1,17 @@
+que tenga un panel de cards LISTO
+
+que sean cartas que esten boca abajo  LISTO
+
+tiene que tener los intentos  RELATIVAMENTE LISTO
+
+puede hacerse para 2 jugadores  RELATIVAMETNE LISTO
+
+el menu/nvabar puede ser otra grilla con un flex  LISTO
+
+en el centro del juego las cartas tienen que mostrarse bien y que hagan algo  LISTO
+
+que haya un minimo de tiempo    FALTA
+
+previo a esto tiene que haber otro html que sea un formulario en el que los jugadores pongan sus datos  FALTA
+
+el jugador que tenga mas coincidencias gana  FALTA

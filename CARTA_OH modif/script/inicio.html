@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+    </title>
+    <link rel="stylesheet" href="/estilos/styles.css">
+    <script src="/script/index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <title>Inicio</title>
+</head>
+<body class="fondo">
+    <header>
+    </header>
+    <div class="container">
+        <button id="submitBtn" class="boton" type="submit" form="myForm"><a href="/script/panel.html"><img style="max-width: 300px; " src="/estilos/img/iniciar.png" alt=""></a></button>
+        <button class="formbtn" onclick="toggleForm()"><img style="max-width: 150px; " src="/estilos/img/data-transfer.png" alt=""></button>
+        <button id="reproducir-audio" style="height: 100px; width:80px;"> Cambiar pista de audio<audio autoplay>
+            <source src="/estilos/canciones/menu.mp3" type="audio/mpeg">
+          </audio>      </button>    
+        <div class="form" id="myForm" style="display:none;">
+            <form>
+                <div class="formJ1">
+                    <h2>Duelista 1:</h2>
+                    <label>
+                        <input type="text" name="jugador1" placeholder="Nombre del Duelista 1">
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="personaje" value="mario">
+                        <img class="icono" src="/estilos/img/Seto-Kaiba.jpg">
+                    </label>
+                    <label>
+                        <input type="radio" name="personaje" value="luigi">
+                        <img class="icono" src="/estilos/img/yugi.jpg">
+                    </label>
+                </div>
+                <div class="formJ2">
+                    <h2>Duelista 2:</h2>
+                    <label>
+                        <input type="text" name="jugador2" placeholder="Nombre del Duelista 2">
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="personaje" value="mario">
+                        <img class="icono" src="/estilos/img/Seto-Kaiba.jpg">
+                    </label>
+                    <label>
+                        <input type="radio" name="personaje" value="luigi">
+                        <img class="icono" src="/estilos/img/yugi.jpg">
+                    </label>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+.fondo{
+    background-image: url("/estilos/img/fondo\ piola.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fondo2{
+    background-color: rgb(4, 34, 97);
+    background-image: url('/estilos/img/fondo3.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+html, body {
+    height: 100%;
+  }
+.navbar{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.boton{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    position: fixed;
+    bottom: 150px;
+    box-shadow: 0 2px 2px rgb(64, 130, 253);
+    border-radius: 5px;
+}
+
+button:active {
+    box-shadow: none;
+    transform: translateY(4px);
+    }
+
+li {
+    text-decoration:rgb(61, 243, 243);
+    list-style-type: none;
+    color: rgb(49, 252, 242);
+}
+
+.container{
+    justify-content: center;
+    display: flex;
+}
+
+.contaiñer{
+    justify-content: space-around;
+}
+
+.cartas{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3    , 1fr);
+    align-content: space-between;
+    text-align: center;
+    justify-items: center;
+}
+
+.imgcard1:hover {
+    transform: translate(10px, -10px);
+}
+
+.cartas {
+    perspective: 2000px;
+}
+
+.imgcard1 {
+    position: relative;
+    width: 144px;
+    height: 210px;
+    background-image: url('/estilos/img/Sin_carta.webp');
+    background-size: cover;
+    transition: transform 1s ease;
+    transform-style: preserve-3d;
+    margin: 5px;
+}
+
+.imgcard1.volteada {
+    transform: rotateX(180deg);
+}
+
+.imgcard1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 144px;
+    height: 210px;
+    background-image: url('/estilos/img/el\ q\ invoka.jpg');
+    background-size: cover;
+    transform: rotateX(180deg);
+    backface-visibility: hidden;
+}
+
+footer {
+    
+    background-color: #2faf84;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    height: 150px;
+}
+
+.formbtn {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    position: fixed;
+    bottom: 90px;
+    box-shadow: 0 2px 2px rgb(64, 130, 253);
+    border-radius: 5px;
+}
+
+.formJ1 {
+    background-color: rgba(0, 17, 255, 0.200);
+    color: aqua;
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.formJ2 {
+    background-color: rgba(0, 17, 255, 0.200);
+    color: aqua;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.icono{
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 100px;
+}
